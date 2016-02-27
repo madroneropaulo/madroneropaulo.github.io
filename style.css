@@ -1,0 +1,25 @@
+body, h1, h2, h3, h4, h5, p, div, section, li, span{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.main-page {
+    padding: 15px;
+    border: 2px solid #534291;
+    border-radius: 3px;
+}
+.main-page__title-font {
+    font-family: helvetica;
+    color: #534191;
+}
